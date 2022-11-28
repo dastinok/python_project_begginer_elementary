@@ -1,0 +1,11 @@
+print('Введите a')
+a = int(input())
+print('Введите b')
+b = int(input())
+print(a, '+', b, '=', a+b)
+
+print('Введите c')
+c = float(input())
+print('Введите g')
+g = float(input())
+print(c, '+', g, '=', c+g)

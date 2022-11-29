@@ -32,4 +32,4 @@ balance_amount = (sell_stock_amount) - (buy_amount)
 print(f'Информация:\n'
       f'Сумма уплаченная за акции: {buy_amount}. ' +
       f'Сумма проданных акций - {sell_stock_amount} баксов ' +
-      f'Сумма остатка (прибыль/убыток) - {balance_amount} баксов')
+      f'Сумма остатка (прибыль/убыток) - {balance_amount} баксов))')

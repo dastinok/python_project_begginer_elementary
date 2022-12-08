@@ -7,12 +7,12 @@ RATIO_3 = 4
 
 if year % RATIO_1 == 0:
     if year % RATIO_2 == 0:
-        print('Високосный год')
+        print('Високосный год - 29 дней')
     else:
         print('Год обычный')
 
 if year % RATIO_1 != 0:
     if year % RATIO_3 == 0:
-        print('Високосный год')
+        print('Високосный год - 29 дней')
     else:
         print('Год обычный')

@@ -7,4 +7,4 @@ COUNTER = 5
 
 for counter in range(FIRST, MAX, COUNTER):
     calories = CALO * counter
-    print(f'{calories: .2f} калории')
+    print(f'{calories: .0f} калории')

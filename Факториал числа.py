@@ -6,6 +6,7 @@ def convert():
     print('Число\t\tФакториал')
 
     factorial = 1
+
     for count in range(number):
         count += 1
         factorial = count * factorial

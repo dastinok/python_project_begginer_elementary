@@ -4,14 +4,14 @@ START = 1
 print(f'Дни\t\t\tКопейки\t\t\t\t\tРубли')
 CONFERSATION_FACTOR = 0.01
 sum_rub = 0.0
-
+cop = 1
 for count in range(START, days+1):
 
     if count <= 2:
         cop = count
         rub = cop * CONFERSATION_FACTOR
     else:
-        cop = count ** 2
+        cop = cop * 2
         rub = cop * CONFERSATION_FACTOR
 
     sum_rub = sum_rub + rub
